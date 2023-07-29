@@ -1,6 +1,8 @@
 <?php
 echo
 "
+#Tell me how to remove them locally and remotely.
+
  1- To remove a branch locally:
 
         git branch -d branch-name
@@ -10,6 +12,8 @@ echo
 
         git push origin --delete branch-name
 
+
+#Tell me how to checkout another branch without commit changes
 
 3- Stash your changes:
 
@@ -26,9 +30,15 @@ echo
         git stash apply
 
 
+
+#Tell me how to list tags.
+
 6-To list all the tags in your Git repository
 
         git tag
+
+
+#Tell me how to delete tag locally and remotely.
 
 
 7-To delete a tag locally
