@@ -1,6 +1,6 @@
 <?php
-
-/*
+echo
+"
  1- To remove a branch locally:
 
         git branch -d branch-name
@@ -39,4 +39,4 @@
             git push --delete origin v1.7
 
 
-*/?>
+";?>
